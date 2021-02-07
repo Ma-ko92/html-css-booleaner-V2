@@ -1,0 +1,137 @@
+/* reset */
+*{
+  margin: 0;
+}
+
+body{
+  background-color: rgb(246,215,138);
+}
+
+/* header */
+header{
+  background-image: url("../img-2/pattern-1.jpg");
+  height:170px;
+}
+/* container */
+.container{
+  width: 1024px;
+  margin: auto;
+}
+/* logo */
+.logo{
+  width: 200px;
+}
+/* titolo */
+h1{
+  font-size: 50px;
+  color: rgb(176, 23, 31);
+  margin-top: 10px;
+}
+/* autore note */
+.author{
+  font-size: 15px;
+  color: orange;
+  margin-top: 5px;
+}
+
+.author-name{
+  color:red;
+}
+
+.date{
+  font-size: 12px;
+  color:orange;
+  margin-top: 3px;
+}
+/* fine autore note */
+/* images */
+.images{
+  margin-top: 20px;
+}
+
+.img1{
+  width: 300px;
+}
+
+.img2{
+  width:500px;
+}
+/* fine images */
+/* didascalia immagini */
+.description{
+  font-size: 12px;
+  margin-top: 5px;
+}
+/* articolo */
+.article{
+  font-size: 20px;
+  margin-top: 20px;
+}
+/* sottolineatura */
+.highlights{
+  background-color: yellow;
+}
+/* sottotitolo */
+.second-title{
+  margin-top: 20px;
+  color: rgb(176, 23, 31);
+}
+/* punti principali */
+.main-points{
+  margin-top: 5px;
+  font-size: 18px;
+}
+/* rientro punti principali */
+ul{
+  list-style: inside;
+  padding-left: 0;
+}
+/* table */
+table{
+  border-spacing: 0;
+  margin-top: 20px;
+}
+
+table thead{
+  background-color: rgb(176, 23, 31);
+  text-align: left;
+}
+
+.table-text{
+  width:50%;
+}
+
+.odd{
+  background-color: orange;
+}
+
+.odd-two{
+  background-color: yellow;
+}
+/* fine table */
+/* footer image */
+.other{
+  background-image: url("../img-2/other-1.jpg");
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  color:white;
+  font-size: 25px;
+}
+
+.other-two{
+  background-image: url("../img-2/other-2.jpg");
+  width:200px;
+  height:200px;
+  background-size: cover;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  color:black;
+  font-size: 25px;
+}
+/* fine footer */
